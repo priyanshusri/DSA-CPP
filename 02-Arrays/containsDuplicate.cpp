@@ -13,6 +13,8 @@ public:
     }
 };
 //another way to solve it is using either unordered_map or unordered_set
+//Time complexity: O(n), we go through the array once
+//Space complexity: O(n), in the worst case we store every element in it(they are all unique)
 /*
 unordered_set<int> dup;
         for(int i=0;i<nums.size();i++){
