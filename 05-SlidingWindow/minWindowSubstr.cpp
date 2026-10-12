@@ -38,3 +38,13 @@ public:
         return minlen == INT_MAX?"":s.substr(start,minlen);
     }
 };
+int main() {
+    Solution sol;
+
+    string s = "ADOBECODEBANC";
+    string t = "ABC";
+
+    cout << sol.minWindow(s, t) << endl;
+
+    return 0;
+}
